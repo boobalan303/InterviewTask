@@ -18,7 +18,6 @@ function Home() {
                         <li><Link to="/blog">BLOG</Link></li>
                         <li><Link to="/contact">CONTACT</Link></li>
                         <li><Link to="/login">LOGIN</Link></li>
-
                     </ul>
                 </div>
             </nav>
@@ -34,7 +33,7 @@ function Home() {
                 </div>
                 <div className="content-image">
                     <img src={p1} alt="home" />
-                </div>
+                </div> 
             </div>
         </div>
     );
