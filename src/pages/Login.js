@@ -3,6 +3,7 @@ import "./Login.css";
 
 function Login() {
     return (
+        <div className="login-container">
         <div className="login">
             <div className="login-header">
                 <h1>Login</h1>
@@ -16,6 +17,7 @@ function Login() {
                 </form>
             </div>           
         </div>
+        </div> 
     );
 }
 

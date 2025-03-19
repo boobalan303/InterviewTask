@@ -4,8 +4,12 @@
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-
 }
+.login-container{
+    background-color: aqua;
+    background-position-x: calc(30 20);
+}
+
 .login{
     width: 400px;
     height: 400px;
@@ -25,8 +29,6 @@
     align-items: center;
     margin-bottom: 10px;
     border-bottom: 1px solid gray;
-
-   
 }
 .login-content{
     width: 100%;
@@ -40,7 +42,6 @@
     color: #333;
     font-size: 24px;
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 .login-content input , .login-content button{
     width: 80%;
